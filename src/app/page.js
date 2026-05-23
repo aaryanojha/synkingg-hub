@@ -270,8 +270,8 @@ export default function Home() {
 
           {/* CTA Button */}
           <a
-            href="/synkingg-extension.zip"
-            download="synkingg-extension.zip" // This tells the browser to download instead of opening
+            href="/synkingg.zip"
+            download="synkingg.zip" // This tells the browser to download instead of opening
             style={{
               // ... keep your existing styles ...
               display: "inline-block",
