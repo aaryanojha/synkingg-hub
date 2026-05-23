@@ -270,26 +270,19 @@ export default function Home() {
 
           {/* CTA Button */}
           <a
-            href="#"
+            href="/synkingg-extension.zip"
+            download="synkingg-extension.zip" // This tells the browser to download instead of opening
             style={{
+              // ... keep your existing styles ...
               display: "inline-block",
               padding: "18px 45px",
               fontSize: "1.2rem",
               fontWeight: "bold",
-              background: "#e60000", // Solid red button
+              background: "#e60000",
               color: "white",
               textDecoration: "none",
               borderRadius: "50px",
-              boxShadow: "0 10px 25px rgba(230, 0, 0, 0.4)",
-              transition: "transform 0.2s ease, boxShadow 0.2s ease",
-            }}
-            onMouseOver={(e) => {
-              e.target.style.transform = "translateY(-3px)";
-              e.target.style.boxShadow = "0 15px 30px rgba(230, 0, 0, 0.5)";
-            }}
-            onMouseOut={(e) => {
-              e.target.style.transform = "translateY(0)";
-              e.target.style.boxShadow = "0 10px 25px rgba(230, 0, 0, 0.4)";
+              // ...
             }}
           >
             Add to Chrome — It is Free
